@@ -12,7 +12,6 @@ body {
 
 h1 {
   font-family: 'Lexend Giga', sans-serif;
-  font-size: 100px;
   display: block;
   width: 100%;
   text-align: center;
@@ -85,9 +84,9 @@ span {
 
 .main-nav a {
   display: block;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
-  margin:0.5em auto;
+  margin: 0.5em auto;
 }
 
 .container {
@@ -158,19 +157,20 @@ span {
 
     .main-nav li {
       display: inline-block;
-      margin:0 1em;
+      margin: 0 1em;
       border-radius: 25px;
     }
 
     .banner img {
       float: right;
       width: 50%;
+      margin: 0 auto;
     }
 
     .banner p {
       float: left;
       width: 50%;
-      margin: 10% auto;
+      margin: 0 auto;
       padding: 0 1em;
 
     }
@@ -232,7 +232,6 @@ span {
     .banner {
       width: 60%;
     }
-
 
     .container {
       width: 80%;
