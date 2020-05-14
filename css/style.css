@@ -1,0 +1,285 @@
+/* BASE LAYOUT STYLES */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  color: #3A94A4;
+  background: #CFDAE4;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Lexend Giga', sans-serif;
+  font-size: 100px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #276B09;
+  text-transform: lowercase;
+  margin: 0.5em 0;
+}
+
+a {
+  color: #276B09;
+  text-decoration:none;
+}
+
+a:visited {
+  color:  brown;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h2,h3 {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  color: #276B09;
+  text-align: center;
+  }
+
+h2 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+
+h3 {
+    margin-bottom: 0;
+  }
+
+p {
+    margin-top: 0;
+  }
+
+img {
+    max-width: 100%;
+    margin-top: 1em;
+  }
+
+hr  {
+    width: 80%;
+  }
+
+li{
+  background-color: #DDE8E9;
+}
+
+span {
+  display:  inline;
+}
+/*NAVIGATION*/
+
+
+.portfolio  {
+  margin: 2em 0;
+}
+
+.main-nav {
+  font-family: 'Lexend Giga', sans-serif;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.main-nav a {
+  display: block;
+  font-size: 30px;
+  text-align: center;
+  margin:0.5em auto;
+}
+
+.container {
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.banner {
+  margin: 3em auto;
+  width: 80%;
+}
+
+.main-footer {
+  font-family: 'Lexend Giga', sans-serif;
+  text-transform: uppercase;
+  width: 90%;
+}
+
+#skills,
+#contact {
+  margin-top: 4em;
+}
+
+.student-footer {
+  font-family: 'Lexend Giga',san serif;
+  text-transform: lowercase;
+  color: #276B09;
+  float: left;
+  margin-bottom: 1em;
+  margin-left: 11%;
+}
+
+.back {
+  font-family:  'Lexend Giga',sans-serif;
+  text-transform: uppercase;
+  color: #276B09;
+  float: right;
+  margin-bottom: 1em;
+}
+
+.footer-nav {
+  display:  none;
+}
+
+.main-nav a:hover {
+  color:  yellow;
+}
+.main-footer a:hover  {
+  color:  yellow;
+}
+
+.skills li:hover {
+  color:  #276B09;
+}
+
+.skills,
+.contact {
+  padding: 0;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (min-width:  768px)  {
+
+    .student {
+      font-size: 75px;
+    }
+
+    .main-nav li {
+      display: inline-block;
+      margin:0 1em;
+      border-radius: 25px;
+    }
+
+    .banner img {
+      float: right;
+      width: 50%;
+    }
+
+    .banner p {
+      float: left;
+      width: 50%;
+      margin: 10% auto;
+      padding: 0 1em;
+
+    }
+    .banner {
+      width: 80%;
+      margin: 2em auto;
+    }
+
+    .title {
+      float: left;
+      width: 50%;
+      height: 500px;
+    }
+
+    .marketing,
+    .travel,
+    .gallery {
+      padding-right: 1em;
+    }
+
+    .search,
+    .map,
+    .calc {
+      padding-left: 1em;
+    }
+
+    .back {
+      display: none;
+    }
+
+    .footer-nav {
+      display: inline-block;
+      margin: 0;
+      float: right;
+      font-size: 15px;
+
+
+    }
+
+    .footer-nav li {
+      display: inline-block;
+      border-radius: 20px;
+    }
+
+
+    .clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+}
+
+@media screen and (min-width:  1024px)  {
+
+    .main-header {
+      width: 90%;
+    }
+
+    .banner {
+      width: 60%;
+    }
+
+
+    .container {
+      width: 80%;
+      max-width: 1150px;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+
+    .student {
+      font-size: 40px;
+      float: left;
+      width: 50%;
+    }
+
+
+    .main-nav a {
+      display: inline-block;
+      font-size: 20px;
+      float: right;
+      margin:0;
+      border-radius: 25px;
+    }
+
+    .main-nav {
+      float: right;
+      width: 50%;
+    }
+
+    .title  {
+      width: 33.33%;
+      padding: 0 8px;
+      height: 400px;
+    }
+
+
+    .title div {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+
+
+    .clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+
+}
