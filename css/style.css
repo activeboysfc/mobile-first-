@@ -230,7 +230,8 @@ span {
     }
 
     .banner {
-      width: 60%;
+      width: 75%;
+      margin: 2em auto;
     }
 
     .container {
@@ -245,14 +246,15 @@ span {
       font-size: 40px;
       float: left;
       width: 50%;
+      margin: 0 auto;
     }
 
 
     .main-nav a {
       display: inline-block;
-      font-size: 20px;
+      font-size: 15px;
       float: right;
-      margin:0;
+      margin: 0 auto;
       border-radius: 25px;
     }
 
